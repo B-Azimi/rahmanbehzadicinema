@@ -656,7 +656,7 @@
 
             const formData = new FormData(form);
 
-            fetch("/", {
+            fetch(window.location.pathname, {
                 method: "POST",
                 body: formData
             })
