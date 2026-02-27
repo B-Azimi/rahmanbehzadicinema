@@ -1876,8 +1876,8 @@ p {
   right: 0px;
   z-index: 999;
   background-color: transparent;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: "Poppins", sans-serif;
   -webkit-transition-property: all;
   transition-property: all;
@@ -2186,8 +2186,7 @@ p {
 
   .navbar-brand {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 1rem;
   }
 
   .nav-icons {
